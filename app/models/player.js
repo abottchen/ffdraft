@@ -6,4 +6,5 @@ export default DS.Model.extend({
   nflteam: DS.attr('string'),
   team: DS.attr('string'),
   value: DS.attr('string'),
+  position: DS.attr('string'),
 });
