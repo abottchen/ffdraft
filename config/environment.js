@@ -5,6 +5,22 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ffdraft',
     environment,
+
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-eval' apis.google.com",
+      'frame-src': "'self' https://*.firebaseapp.com",
+      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+    },
+
+    firebase: {
+      apiKey: "AIzaSyCR4XEIObMKt4LLdx3idgnGzxYGQlyAAkQ",
+      authDomain: "ffdraft-a0c5d.firebaseapp.com",
+      databaseURL: "https://ffdraft-a0c5d.firebaseio.com",
+      projectId: "ffdraft-a0c5d",
+      storageBucket: "",
+      messagingSenderId: "414319265912"
+    },
+
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {

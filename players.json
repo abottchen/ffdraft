@@ -1,0 +1,32 @@
+{
+  "players": {
+    "1": {
+      "name": "Brown, Antonio",
+      "picture": "http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13934.png",
+      "nflteam": "Steelers",
+      "team": "Adam",
+      "value": 15
+    },
+    "2": {
+      "name": "Allen, Keenan",
+      "picture": "http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png",
+      "nflteam": "Chargers",
+      "team": "Adam",
+      "value": 2
+    },
+    "3": {
+      "name": "Hill, Tyreek",
+      "picture": "http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116406.png",
+      "nflteam": "Chiefs",
+      "team": "Adam",
+      "value": 17
+    },
+    "4": {
+      "name": "Hunt, Kareem",
+      "picture": "http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3059915.png",
+      "nflteam": "Chiefs",
+      "team": "Adam",
+      "value": 34
+    }
+  }
+}

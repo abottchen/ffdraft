@@ -1,0 +1,21 @@
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Team</th>
+      <th>Owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |player|}}
+    <tr>
+{{!--      <td><img src={{player.picture}} width=600 height=436 /></td> --}}
+{{!--      <td><img src={{player.picture}} width=150 height=109 /></td> --}}
+      <td>{{player.name}}</td>
+      <td>{{player.nflteam}}</td>
+      <td>{{player.team}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{outlet}}
